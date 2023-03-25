@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.users {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    padding-left: 30px;
+    justify-content: start;
+    padding-bottom: 20px;
+
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 20px;
+}
+
+.first {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #BFC8E6;
+    justify-content: space-around;
+}
+
+
+.left>.first>input {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    border: 1px solid transparent;
+}
+
+
+.left>.first>input::placeholder {
+    font-size: 20px;
+}
+
+
+.right {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.first {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #151B32;
+    cursor: pointer;
+}
+
+
+
+
+.second {
+    cursor: pointer;
+    background: #849FFF;
+    padding: 16px;
+    border-radius: 8px;
+    color: white;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.card-c {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    width: 70%;
+    height: 702px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    width: 350px;
+    height: 220px;
+    background: #FBFCFF;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.carda {
+    width: 350px;
+    height: 220px;
+    background: #FBFCFF;
+    border: 1px solid #BFC8E6;
+
+
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.texts {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+}
+
+
+.textsssss{
+    width: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.textsssss>h {
+    margin-left: 2px;
+    border: 1px solid #BFC8E6;
+    padding: 2px 8px;
+    border-radius: 10px;
+    color: #516FD5;
+}
